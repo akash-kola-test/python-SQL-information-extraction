@@ -1,0 +1,36 @@
+[
+	{
+        "statement_id": 1,
+        "statement_type": "create or insert or update",
+        "table_name": [
+            {
+                "target_table_name": "target_table"
+            },
+            {
+                "type": "from or join",
+                "source_table_name": "source_table1"
+            },
+            {
+                "type": "from or join",
+                "source_table_name": "source_table2"
+            }
+        ]
+    },
+    {
+        "statement_id": 2,
+        "statement_type": "create or insert or update",
+        "table_name": [
+            {
+                "target_table_name": "target_table"
+            },
+            {
+                "type": "from or join",
+                "source_table_name": "source_table1"
+            },
+            {
+                "type": "from or join",
+                "source_table_name": "source_table2"
+            }
+        ]
+    }
+]
